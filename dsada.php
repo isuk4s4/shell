@@ -7,7 +7,7 @@
 <pre>
 <script>
     const xhr = new XMLHttpRequest();
-xhr.open("GET", "http://127.0.0.1/secret");
+xhr.open("GET", "http://127.0.0.1:31740/secret");
 xhr.send();
 xhr.responseType = "json";
 xhr.onload = () => {
